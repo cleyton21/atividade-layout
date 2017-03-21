@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>atividade prática layout</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		.col,[class*="col-"] {
+			background-color: #f4f4f4;
+			border: 1px solid #ccc;
+		}
+		.teste {
+			
+			height: 300px;
+		}
+		.aa {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		.bb {
+			display: flex;
+			
+			align-items: center;
+
+		}
+	</style>
+
+</head>
+<body>
+
+		<br>
+		<div class="container">
+				
+				<div class="row" style="height: 100px;">
+					<div class="col-3 aa" style="margin-right:40px;">Logo</div>
+					<div class="col aa">Menu</div>
+					
+				</div>
+				<br/>
+				
+				
+				<div class="row teste">
+					<div class="col" style="margin-right: 50px;"></div>
+					<div class="col" style="margin-right: 50px;"></div>
+					<div class="col"></div>
+				</div>
+
+				<br/>
+				<div class="row" style="height: 60px;">
+					<div class="col bb">Camada super foda</div>
+					
+				</div>
+
+
+				<br/>
+				<div class="row" style="height: 90px;">
+					<div class="col aa"><u>Rodapé</u></div>
+					
+				</div>
+
+
+		</div>
+
+
+</body>
+</html>
